@@ -50,30 +50,4 @@ sudo chmod 644 /usr/lib/systemd/system/docker.service
 sudo curl -o /etc/sysctl.conf https://raw.githubusercontent.com/Adiel-Ribeiro/Amazon-Linux/master/sysctl.conf
 sudo chmod 644 /etc/sysctl.conf 
 ##################################################################################################################
-sudo reboot 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+sudo reboot
