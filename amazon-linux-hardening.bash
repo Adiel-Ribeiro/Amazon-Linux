@@ -42,6 +42,9 @@ sudo chmod 644 /etc/kubernetes/kubelet/kubelet-config.json
 ##################################################################################################################
 ################################### docker #######################################################################
 sudo bash -c "echo ipv6=false >> /etc/sysconfig/docker"
+sudo curl -o /usr/lib/systemd/system/docker.service \
+https://raw.githubusercontent.com/Adiel-Ribeiro/Amazon-Linux/master/docker.service
+sudo chmod 644 /usr/lib/systemd/system/docker.service
 ##################################################################################################################
 ####################################### sysctl ###################################################################
 sudo curl -o /etc/sysctl.conf https://raw.githubusercontent.com/Adiel-Ribeiro/Amazon-Linux/master/sysctl.conf
